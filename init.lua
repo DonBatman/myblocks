@@ -1,7 +1,7 @@
 local use_colors = core.settings:get_bool("myblocks.colors", true)
 local use_stairs = core.settings:get_bool("myblocks.stairs", true)
 
-local overlays = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"}
+local overlays = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"}
 for _, a in pairs(overlays) do
 
 	core.register_node("myblocks:block_"..a,{

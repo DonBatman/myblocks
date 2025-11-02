@@ -21,7 +21,7 @@ local des = (colors_table)[i][2]
 local num = (colors_table)[i][3]
 
 
-local overlays = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"}
+local overlays = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"}
 for _, a in pairs(overlays) do
 
 
