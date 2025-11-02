@@ -1,0 +1,6 @@
+
+#Enable colored blocks
+myblocks.colors(Enable to use colored blocks) bool true
+#Enable stairs
+myblocks.stairs(Enable to use stairs blocks) bool true
+
