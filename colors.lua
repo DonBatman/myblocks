@@ -3,8 +3,8 @@ local colors_table = {
 		{"blue",		"Blue", 		"^[colorize:#272dc8:200"},
 		{"brown",		"Brown", 		"^[colorize:#190B07:160"},
 		{"cyan",		"Cyan",			"^[colorize:#00ffff:120"},
-		{"darkgreen",	"Dark Green",	"^[colorize:#071907:200"},
-		{"darkgrey",	"Dark Grey",	"^[colorize:#000000:200"},
+		{"dark_green",	"Dark Green",	"^[colorize:#071907:200"},
+		{"dark_grey",	"Dark Grey",	"^[colorize:#000000:200"},
 		{"green",		"Green", 		"^[colorize:#00ff00:160"},
 		{"grey",		"Grey", 		"^[colorize:#000000:160"},
 		{"magenta",		"Magenta",		"^[colorize:#ff00ff:160"},
@@ -36,10 +36,7 @@ for _, a in pairs(overlays) do
 		paramtype2 = "facedir",
 		groups = {cracky = 2},
 	})
---end
 
---local num = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"}
---for _, n in pairs(num) do
 core.register_craft({
 	output = "myblocks:block_"..a.."_"..col,
 	recipe = {
