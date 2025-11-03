@@ -36,6 +36,15 @@ for _, a in pairs(overlays) do
 		paramtype2 = "facedir",
 		groups = {cracky = 2},
 	})
-	
-	end
+--end
+
+--local num = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"}
+--for _, n in pairs(num) do
+core.register_craft({
+	output = "myblocks:block_"..a.."_"..col,
+	recipe = {
+		{"myblocks:block_"..a, "dye:"..col},
+	}
+})
+end
 end
