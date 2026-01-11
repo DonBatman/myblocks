@@ -95,6 +95,11 @@ core.register_craft({
 		{"myblocks:block_"..a, "dye:"..col},
 	}
 })
+
+lucky_block:add_blocks({
+	{"dro", {"myblocks:block_"..a.."_"..col}, 10},
+})
+
 end
 end
 local paintables = {	"myblocks:blank_block","myblocks:block_1","myblocks:block_2","myblocks:block_3","myblocks:block_4","myblocks:block_5","myblocks:block_6","myblocks:block_7","myblocks:block_8","myblocks:block_9","myblocks:block_10","myblocks:block_11","myblocks:block_12","myblocks:block_13","myblocks:block_14","myblocks:block_15","myblocks:block_16"}

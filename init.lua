@@ -12,7 +12,11 @@ for _, a in pairs(overlays) do
 		paramtype2 = "facedir",
 		groups = {cracky = 2},
 	})
-	
+
+lucky_block:add_blocks({
+	{"dro", {"myblocks:block_"..a}, 10},
+})
+
 end
 
 core.register_craft({
