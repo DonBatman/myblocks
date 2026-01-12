@@ -13,9 +13,11 @@ for _, a in pairs(overlays) do
 		groups = {cracky = 2},
 	})
 
-lucky_block:add_blocks({
-	{"dro", {"myblocks:block_"..a}, 10},
-})
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"myblocks:block_"..a}, 10},
+	})
+end
 
 end
 
